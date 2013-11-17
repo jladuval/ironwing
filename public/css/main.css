@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,700,800,900|Pacifico);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
 /* line 10, ../sass/_type.sass */
 [class*="entypo-"]:before {
   font-family: "entypo", sans-serif;
@@ -1494,8 +1496,7 @@ p span {
 @media (min-width: 768px) {
   /* line 81, ../sass/partials/_contact.sass */
   .contact .entypo-mail {
-    font-size: 30p
-    x;
+    font-size: 30px;
     font-size: 3rem;
     line-height: 52px;
     line-height: 5.2rem;
@@ -1505,24 +1506,18 @@ p span {
 .contact .social {
   width: 210px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 @media (min-width: 768px) {
   /* line 89, ../sass/partials/_contact.sass */
   .contact .social {
-    margin-top: 300px;
-  }
-}
-@media (min-width: 950px) {
-  /* line 89, ../sass/partials/_contact.sass */
-  .contact .social {
-    margin-top: 340px;
+    margin-top: 100px;
   }
 }
 @media (min-width: 1200px) {
   /* line 89, ../sass/partials/_contact.sass */
   .contact .social {
-    margin-top: 400px;
+    margin-top: 150px;
   }
 }
 /* line 100, ../sass/partials/_contact.sass */
