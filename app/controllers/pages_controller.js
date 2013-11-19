@@ -4,8 +4,8 @@ var locomotive = require('locomotive')
 var PagesController = new Controller();
 
 PagesController.main = function() {
-  this.title = 'Iron Wing'
+  this.title = 'Iron Wing';
   this.render();
-}
+};
 
 module.exports = PagesController;
